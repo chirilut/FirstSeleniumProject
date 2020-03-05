@@ -1,3 +1,4 @@
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,6 +27,10 @@ public class RegisterTest {
         chrome.findElement(By.cssSelector("#is_subscribed")).click();
         chrome.quit();
     }
+
+
+
+
 
 
 
